@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notification</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            overflow: hidden;
+            background: transparent; /* Important for the iFrame */
+        }
+
+        #notification {
+            width: 300px;
+            padding: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+            position: fixed;
+            bottom: 0;
+            right: 0;
+            background-color: #fff;
+            border-left: 5px solid #0078D7;  /* Windows blue accent color */
+        }
+    </style>
+</head>
+<body>
+
+<div id="notification">
+    <strong>Windows Defender</strong>
+    <p>Threats found and actioned. See details for more information.</p>
+</div>
+
+</body>
+</html>
